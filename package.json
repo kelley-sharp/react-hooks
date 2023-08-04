@@ -1,0 +1,23 @@
+{
+  "name": "@kelley-sharp/react-hooks",
+  "version": "0.0.1",
+  "description": "A useful set of custom React hooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelley-sharp/react-hooks.git"
+  },
+  "keywords": [
+    "React",
+    "hooks"
+  ],
+  "author": "Kelley Sharp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kelley-sharp/react-hooks/issues"
+  },
+  "homepage": "https://github.com/kelley-sharp/react-hooks#readme"
+}
