@@ -5,9 +5,7 @@ import { useState } from "react";
 describe("usePrevious", () => {
   it("stores the previous value", () => {
     // `useStateResult.current` -> `[count, setCount]`
-    const { result: useStateResult, rerender: useStateRerender } = renderHook(
-      () => useState(0)
-    );
+    const { result: useStateResult } = renderHook(() => useState(0));
 
     const { result, rerender } = renderHook(() =>
       usePrevious(useStateResult.current[0])
