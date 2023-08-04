@@ -2,10 +2,13 @@
   "name": "@kelley-sharp/react-hooks",
   "version": "0.0.1",
   "description": "A useful set of custom React hooks",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "tsc",
+    "tsc": "tsc --noEmit",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "typings": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kelley-sharp/react-hooks.git"
@@ -19,5 +22,12 @@
   "bugs": {
     "url": "https://github.com/kelley-sharp/react-hooks/issues"
   },
-  "homepage": "https://github.com/kelley-sharp/react-hooks#readme"
+  "homepage": "https://github.com/kelley-sharp/react-hooks#readme",
+  "devDependencies": {
+    "@types/react": "^18.2.18",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  }
 }
