@@ -1,5 +1,7 @@
 # React Hooks
 
+[![npm version](https://badge.fury.io/js/@kelley-sharp%2Freact-hooks.svg)](https://badge.fury.io/js/@kelley-sharp%2Freact-hooks)
+
 This package contains a set of my favorite custom React hooks that I use on nearly every project. The only dependency is React.
 
 ## Hooks
