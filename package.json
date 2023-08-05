@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "A useful set of custom React hooks",
   "main": "dist/index.js",
+  "private": false,
   "scripts": {
     "build": "tsc",
     "tsc": "tsc --noEmit",
