@@ -20,3 +20,21 @@ function Counter() {
   }, [count, prevCount]);
 }
 ```
+
+### useDidChange
+
+This hook will take any value and determine whether it has changed since the last render. It returns `true` if the value is different.
+For objects, it uses the `JSON.stringify` method for simple comparisons.
+
+```tsx
+function ToggleSwitch() {
+  const [toggled, setToggled] = useState(false);
+  const wasToggled = useDidChange(toggled);
+
+  useEffect(() => {
+    if (wasToggled){
+      console.log("the switch was toggled between the previous and current render");
+    }
+  }, [toggled, wasToggled]);
+}
+```
